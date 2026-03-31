@@ -22,7 +22,7 @@ body {
 /* Section 2 : Zone de couleur */
 /* Section bleue */
 .intro {
-  background: #1CC2C5; /* couleur bleu clair */
+  background: #006699; 
   color: white;
   padding: 2rem 0;
 }
@@ -49,7 +49,7 @@ body {
   font-size: 2.5rem;   /* taille du nom */
   margin-bottom: 1rem; /* espace sous le nom */
   line-height: 1.2;
-  color: #C62DC0;
+  color: white;
 }
 
 .intro-texte p {
