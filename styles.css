@@ -143,7 +143,7 @@ body {
 }
 
 
-.list-doc {
+.list-doc ul {
     margin-left: 50px; /* Décalage spécifique */
     list-style-position: outside; /* Garde les puces alignées dans la marge */
 }
