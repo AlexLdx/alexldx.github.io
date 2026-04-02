@@ -194,3 +194,13 @@ body {
   text-decoration: underline;
 }
 
+.teaching-block h2, 
+.teaching-block p {
+    margin: 0; /* Supprime toutes les marges par défaut */
+}
+
+/* On rajoute un peu d'espace uniquement en dessous du bloc complet */
+.teaching-block {
+    margin-bottom: 20px;
+}
+
