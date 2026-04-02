@@ -143,6 +143,10 @@ body {
 }
 
 
+.list-doc {
+    margin-left: 50px; /* Décalage spécifique */
+    list-style-position: outside; /* Garde les puces alignées dans la marge */
+}
 
 /* Section 3 : Zone grise */
 .texte-gris {
@@ -158,6 +162,7 @@ body {
   list-style-type: disc;
   margin-left: 1.5rem;
 }
+
 
 /* Section 4 : Zone blanche */
 .documents {
