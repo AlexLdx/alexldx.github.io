@@ -183,6 +183,11 @@ h2 {
 }
 
 /* --- 5. LISTES ET LIENS (RECHERCHE & NOTES) --- */
+.list-doc2 ul {
+    margin-left: 2rem;
+    list-style-type: circle
+}
+
 .list-doc ul, .documents ul {
     margin-left: 2rem;
     margin-bottom: 1.5rem;
