@@ -102,6 +102,16 @@ h2 {
     margin: 0;
 }
 
+
+.banner-text h2 {
+    font-size: 3.5rem;
+    color: #37E3DD;
+    border: none;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+
 .banner-text p {
     font-size: 1.4rem;
     font-weight: 300;
