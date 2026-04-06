@@ -119,12 +119,26 @@ h2 {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
+
+/* 1. Réduire l'espace sous la bannière */
+.hero-banner, .banner {
+  margin-bottom: 20px; /* Réduisez cette valeur (par exemple de 50px à 20px) */
+}
+
+
+
 /* --- 3. SECTIONS DE CONTENU --- */
 /* Zone Introduction (Accueil) */
 .intro {
     background: #f8f9fa;
     padding: 4rem 0;
     border-bottom: 1px solid #eee;
+}
+
+/* 2. Réduire l'espace interne en haut de la section intro */
+.intro {
+  padding-top: 20px; /* Diminuez le padding supérieur */
+  padding-bottom: 40px;
 }
 
 .intro-flex {
