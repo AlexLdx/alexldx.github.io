@@ -208,3 +208,58 @@ a:hover {
     color: #e67e22;
     font-weight: bold;
 }
+
+/* --- Styles pour les résumés déroulants (Abstracts) --- */
+.abstract-container {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.abstract-container[open] {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+summary {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3498db;
+    cursor: pointer;
+    outline: none;
+    list-style: none; /* Cache la flèche par défaut dans certains navigateurs */
+}
+
+summary::-webkit-details-marker {
+    display: none; /* Cache la flèche sous Chrome/Safari */
+}
+
+summary:before {
+    content: "▶ "; /* Ajoute un petit triangle personnalisé */
+    font-size: 0.7rem;
+    margin-right: 5px;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.abstract-container[open] summary:before {
+    transform: rotate(90deg); /* Fait pivoter le triangle quand c'est ouvert */
+}
+
+summary:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.abstract-content {
+    padding: 10px 15px 15px 15px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+    border-top: 1px solid #eee;
+    font-style: italic;
+}
